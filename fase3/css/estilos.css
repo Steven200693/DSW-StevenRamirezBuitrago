@@ -1,0 +1,48 @@
+.encabezado {
+    background-color: darkgreen;
+    padding: 40px;
+
+}
+
+.navegacion {
+    background-color: blueviolet;
+    padding: 40px;
+
+}
+
+.contenedor {
+    background-color: blue;
+    padding: 40px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+
+}
+
+.principal {
+    background-color: brown;
+    padding: 40px;
+    grid-column: 1/4;
+
+}
+
+.lateral {
+    background-color: chartreuse;
+    padding: 40px;
+    grid-column: 4/5;
+}
+
+.pie {
+    background-color: darkslateblue;
+    padding: 40px;
+}
+.encabezado1 {
+    background-color: rgb(0, 15, 100);
+    padding: 40px;
+    text-align: center;
+    font-size:40px ;
+}
+.navegacion1 {
+    background-color: rgb(64, 226, 43);
+    padding: 40px;
+
+}
